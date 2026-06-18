@@ -1,0 +1,138 @@
+.main-section {
+    padding: 30px !important;
+}
+
+.welcome-section {
+    text-align: center;
+}
+
+.welcome-title {
+    font-size: 60px;
+}
+
+.welcome-description {
+    font-size: 30px;
+    line-height: 1.8;
+    margin-bottom: 20px;
+}
+
+.grid-list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+}
+
+.grid-list .grid-card {
+    height: 150px;
+    padding: 25px;
+    text-align: center;
+    border: 2px solid rgb(18, 18, 105);
+}
+
+.grid-list h3,
+.grid-list label {
+    font-size: 40px;
+}
+
+.department-occupancy {
+    margin-top: 50px;
+}
+
+.department-occupancy h1 {
+    font-size: 32px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.department-occupancy table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 22px;
+    text-align: center;
+}
+
+.department-occupancy thead {
+    background-color: #0077cc;
+    color: #fff;
+}
+
+.department-occupancy th,
+.department-occupancy td {
+    border: 1px solid #ccc;
+    padding: 12px;
+}
+
+.department-occupancy tbody tr:hover {
+    background-color: #e6f2ff;
+    cursor: pointer;
+}
+
+.appointment-list {
+    margin-top: 50px;
+}
+
+.appointment-list h1 {
+    font-size: 32px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.appointment-list table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 22px;
+    text-align: center;
+}
+
+.appointment-list thead {
+    background-color: #28a745;
+    color: #fff;
+}
+
+.appointment-list th,
+.appointment-list td {
+    border: 1px solid #ccc;
+    padding: 12px;
+}
+
+.appointment-list tbody tr:hover {
+    background-color: #e6ffe6;
+    cursor: pointer;
+}
+
+.quick-access {
+    margin-top: 50px;
+    padding: 30px;
+    border: 2px solid #0077cc;
+    border-radius: 12px;
+    text-align: center;
+    background-color: #f5faff;
+    
+}
+
+.quick-access h1 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.quick-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.quick-buttons button {
+    padding: 15px 30px;
+    font-size: 20px;
+    border: 2px solid #0077cc;
+    border-radius: 8px;
+    background-color: #fff;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.quick-buttons button:hover {
+    background-color: #0077cc;
+    color: #fff;
+}

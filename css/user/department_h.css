@@ -1,0 +1,46 @@
+.main-section {
+    padding: 20px;
+    padding-top: 0px;
+    text-align: center;
+}
+
+.departments-section h2 {
+    color: #064465;
+    margin-bottom: 10px;
+    font-size: 3rem;
+}
+
+.departments-section p {
+    margin-bottom: 30px;
+    font-size: 1.1em;
+}
+
+.departments-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.department-card {
+    background-color: #fff;
+    flex: 1 1 250px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    transition: transform 0.3s;
+}
+
+.department-card h3 {
+    margin-bottom: 10px;
+    color: #0b6fa4;
+}
+
+.department-card p {
+    color: #555;
+}
+
+.department-card:hover {
+    transform: translateY(-5px);
+}
+

@@ -1,0 +1,96 @@
+#main-section{
+    padding: 20px 40px 140px 40px;
+}
+h2 {
+    color: #1f3d7a;
+    margin-bottom: 10px;
+    margin-top: 15px;
+    font-size: 28px;
+    border-bottom: 2px solid #1f3d7a;
+    padding-bottom: 5px;
+}
+
+p {
+    color: #555555;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+/* Prescription form */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    font-weight: 600;
+    margin-bottom: 5px;
+    color: #333333;
+}
+
+textarea {
+    width: calc(100% - 20px);
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    resize: vertical;
+    margin-bottom: 20px;
+    font-size: 15px;
+}
+
+input[type="text"], input[type="number"] {
+    padding: 8px 10px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+    width: 160px;
+}
+
+input[type="submit"], button {
+    background-color: #1f3d7a;
+    color: #ffffff;
+    border: none;
+    padding: 10px 18px;
+    border-radius: 8px;
+    font-size: 15px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: 0.3s;
+}
+
+input[type="submit"]:hover, button:hover {
+    background-color: #3a5ca0;
+}
+
+/* Medicine rows */
+.medicine-row {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-bottom: 15px;
+    gap: 10px;
+}
+
+.medicine-row input {
+    flex: 1;
+    min-width: 120px;
+}
+
+.medicine-row button {
+    background-color: #d9534f;
+    padding: 6px 12px;
+    font-size: 13px;
+}
+
+.medicine-row button:hover {
+    background-color: #c9302c;
+}
+
+/* Add another medicine button */
+button[type="button"] {
+    background-color: #5cb85c;
+}
+
+button[type="button"]:hover {
+    background-color: #4cae4c;
+}

@@ -1,0 +1,116 @@
+.section-title {
+    font-size: 45px;
+    padding: 10px;
+    text-align: center;
+}
+
+.form-container {
+    margin: 0px 20px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    column-gap: 30px;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.form-container > :last-child {
+  grid-column: 1 / -1;
+  width: 100%;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5px;
+}
+
+.form-group label {
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.form-group input,
+.form-group select {
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    font-size: 15px;
+}
+
+#save {
+    margin-top: 10px;
+    width: 100%;
+    padding: 10px 25px;
+    font-size: 16px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    background-color: #059833;
+    color: white;
+    transition: background-color 0.3s;
+}
+
+#save:hover {
+    background-color: #047527;
+}
+
+.doctor-list-section {
+    margin-top: 30px;
+}
+
+.doctor-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 40px;
+}
+
+.doctor-table th,
+.doctor-table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+    font-size: 14px;
+}
+
+.doctor-table th {
+    background-color: #0077b6;
+    color: white;
+    font-size: 16px;
+}
+
+.doctor-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.doctor-table tr:hover {
+    background-color: #e0f7fa;
+}
+
+.doctor-table a{
+    text-decoration: none;
+}
+
+.doctor-table .edit-btn {
+    background-color: #28a745;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.doctor-table .edit-btn:hover {
+    background-color: #218838;
+}
+
+.doctor-table .delete-btn {
+    background-color: #dc3545;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.doctor-table .delete-btn:hover {
+    background-color: #c82333;
+}

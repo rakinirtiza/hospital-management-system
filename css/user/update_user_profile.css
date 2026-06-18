@@ -1,0 +1,95 @@
+.main-section {
+    padding: 25px;
+    background-color: #ffffff;
+    border-radius: 10px;
+} 
+
+.text-section {
+    padding-top: 20px;
+    text-align: center;
+}
+
+.text-section .section-title{
+    font-size: 3rem;
+}
+
+.text-section .section-description{
+    font-size: 1.3rem;
+    margin: 10px 0px 20px 0px;
+}
+
+.form-contain {
+    max-width: calc(700px - 40px);
+    margin: 0 auto;
+    padding: 20px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    border-radius: 15px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.form-group input,
+.form-group select,
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+}
+
+/* Submit button */
+#submit {
+    width: 100%;
+    padding: 12px 0;
+    font-size: 20px;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    background-color: rgba(13, 59, 102, 1);
+    cursor: pointer;
+    transition: background-color 0.5s;
+}
+
+#submit:hover {
+    background-color: rgba(255, 144, 14, 1);
+}
+
+/* Edit/Delete buttons in table (if any table used for preview) */
+.edit-btn,
+.delete-btn {
+    display: inline-block;
+    padding: 8px 15px;
+    margin: 5px 3px;
+    border-radius: 8px;
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    transition: background-color 0.5s;
+}
+
+.edit-btn {
+    background-color: #2196F3;
+}
+
+.edit-btn:hover {
+    background-color: #0b7dda;
+}
+
+.delete-btn {
+    background-color: #f44336;
+}
+
+.delete-btn:hover {
+    background-color: #da190b;
+}

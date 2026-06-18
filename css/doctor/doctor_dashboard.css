@@ -1,0 +1,135 @@
+.dashboard-main {
+    padding: 40px 20px;
+}
+.welcome-section{
+    text-align: center;
+}
+.welcome-section .section-title {
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+.welcome-section .welcome-description {
+    font-size: 30px;
+    line-height: 1.8;
+    margin-bottom: 20px;
+}
+.cards-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+    margin-bottom: 40px;
+}
+
+.cards-container .card {
+    padding: 25px;
+    text-align: center;
+    border: 2px solid rgb(18, 18, 105);
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.cards-container .card h3 {
+    font-size: 28px;
+    margin-bottom: 15px;
+}
+
+.cards-container .card p {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.cards-container .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+.todays-appointment {
+    margin: 30px 0;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.todays-appointment h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+.todays-appointment table {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: 'Roboto', sans-serif;
+}
+
+.todays-appointment table th,
+.todays-appointment table td {
+    padding: 12px 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+    font-size: 0.95rem;
+    color: #555;
+}
+
+.todays-appointment table th {
+    background-color: #f4f4f4;
+    font-weight: 600;
+}
+
+.todays-appointment table tr:hover {
+    background-color: #f9f9f9;
+}
+
+.todays-appointment table td .btn {
+    padding: 6px 12px;
+    background-color: #4CAF50;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 0.9rem;
+    transition: background-color 0.3s ease;
+}
+
+.todays-appointment table td .btn:hover {
+    background-color: #45a049;
+}
+
+.quick-links {
+    margin-top: 50px;
+    padding: 30px;
+    border: 2px solid #0077cc;
+    border-radius: 12px;
+    text-align: center;
+    background-color: #f5faff;
+}
+
+.quick-links h3 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.links {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.links .btn {
+    padding: 15px 30px;
+    font-size: 20px;
+    border: 2px solid #0077cc;
+    border-radius: 8px;
+    background-color: #fff;
+    color: #0077cc;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.links .btn:hover {
+    background-color: #0077cc;
+    color: #fff;
+} 

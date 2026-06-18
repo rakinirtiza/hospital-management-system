@@ -1,0 +1,63 @@
+.text-section {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.text-section .section-title {
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+.text-section .section-description {
+    font-size: 1.2rem;
+    color: #333;
+}
+
+.form-contain {
+    max-width: 600px;
+    margin: 0 auto 50px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.form-group input,
+.form-group select,
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.form-group .error {
+    color: red;
+    font-size: 0.9rem;
+}
+
+#submit {
+    width: 100%;
+    padding: 12px;
+    background-color: #0d3b66;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#submit:hover {
+    background-color: #ff900e;
+}

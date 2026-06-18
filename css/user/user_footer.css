@@ -1,0 +1,74 @@
+.user-footer {
+    background-color: #1f2d3d;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0px;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+
+.footer-content {
+    margin: auto 11%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-left h4 {
+    font-size: 18px;
+    margin-bottom: 8px;
+    color: #4fc3f7;
+}
+
+.footer-left p {
+    margin: 4px 0;
+    font-size: 14px;
+}
+
+.footer-left  img{
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+}
+.social-links{
+    display: flex;
+    justify-content: space-between;
+}
+.footer-middle a {
+    color: #ccc;
+    margin: 0 8px;
+    text-decoration: none;
+    transition: color 0.3s;
+    display: inline-block;
+    font-size: 14px;
+}
+.footer-right{
+    text-align: start;
+    margin-left: 100px;
+}
+.footer-right a {
+    color: #ccc;
+    margin: 0 8px;
+    text-decoration: none;
+    transition: color 0.3s;
+    display: inline-block;
+    font-size: 14px;
+}
+
+.footer-right ul{
+    list-style: none;
+}
+
+.footer-middle a:hover {
+    color: #4fc3f7;
+}
+
+.footer-right a:hover {
+    color: #4fc3f7;
+}
+
+.footer-bottom {
+    border-top: 1px solid #2f3b4c;
+    padding-top: 10px;
+    font-size: 13px;
+    color: #bbb;
+}

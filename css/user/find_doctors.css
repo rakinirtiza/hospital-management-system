@@ -1,0 +1,68 @@
+.main-section{
+    padding-bottom: 20px;
+}
+.doctors-section {
+    text-align: center;
+}
+
+.doctor-list-title {
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+.searching-section input,
+.searching-section select {
+    margin: 10px;
+    padding: 10px 10px 10px 30px;
+    font-size: 1.6rem;
+    border: 1px solid black;
+    border-radius: 80px;
+    width: 50%;
+}
+.doctors-list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 18px;
+}
+
+.doctor-card{
+    border: 2px solid rgba(13, 59, 102, 1);
+    border-radius: 5px;
+}
+
+.doctor-card img{
+    width: 40%;
+    height: 200px;
+}
+
+.doctor-info {
+    width: 60%;
+    margin: 15px 0px 15px 25px;
+    text-align: left;
+}
+
+.doctor-info h3{
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+.doctor-info p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+.book-btn {
+    margin: 5px auto;
+    height: 40px;
+    width: 200px;
+    background-color: rgba(13, 59, 102, 1);
+    color: rgba(255, 255, 255, 1);
+    border-radius: 5px;
+    font-size: 15px;
+    cursor: pointer;
+    transition: background-color 0.5s;
+}
+
+.book-btn:hover {
+    background-color: rgba(255, 144, 14, 1);
+}

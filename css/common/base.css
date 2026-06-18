@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Iceland&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+.roboto-font {
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+}
+
+.montserrat-font {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.iceland-regular {
+    font-family: "Iceland", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.bg-color {
+    background-color: rgba(255, 144, 14, 0.1);
+}
+
+.error{
+    color: red;
+}
+
+.main-section{
+    margin: 66px 10% 0px 10%;
+    padding: 0 10px 20px 10px;
+    background-color: rgb(255, 255, 255);
+}
+ 
+.display-flex {
+    display: flex;
+}
+
+.small-text{
+    color: grey;
+}
