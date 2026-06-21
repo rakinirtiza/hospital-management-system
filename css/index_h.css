@@ -10,6 +10,15 @@
     color: #0d3b66;
 }
 
+@media screen and (max-width:768px) {
+
+    .hero-title {
+        font-size: 48px;
+        line-height: 1.2;
+    }
+
+}
+
 .banner-description {
     padding-bottom: 20px;
     text-align: justify;
@@ -88,10 +97,11 @@
     text-align: left;
 }
 
-.doctor-info h3{
+.doctor-info h3 {
     font-size: 22px;
     margin-bottom: 10px;
 }
+
 .doctor-info p {
     font-size: 16px;
     line-height: 1.6;

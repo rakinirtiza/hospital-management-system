@@ -45,7 +45,7 @@ session_start();
                             <td>John Doe</td>
                             <td>Blood Test</td>
                             <td>2025-09-10</td>
-                            <td><a href="../../reports/blood_test.pdf" class="download-link">Download</a></td>
+                            <td><a href="../../reports/blood_tests.pdf" class="download-link">Download</a></td>
                         </tr>
                         <tr>
                             <td>RPT002</td>

@@ -1,16 +1,19 @@
-.main-section{
+.main-section {
     margin: 67px 10% 0px 10%;
     background-color: rgba(255, 255, 255, 0.95);
 }
+
 .about-container {
     padding: 0px 10% 20px 10%;
     background-color: rgba(255, 255, 255, 0.95);
 }
-.about-image{
+
+.about-image {
     border: 2px solid rgb(12, 28, 87);
     width: 100%;
     height: 500px;
 }
+
 .about-image img {
     width: 100%;
     height: 500px;
@@ -31,7 +34,7 @@
     text-align-last: center;
 }
 
-.about-content .contact-info{
+.about-content .contact-info {
     text-align: right;
     font-size: 1.6rem;
     line-height: 1.6;

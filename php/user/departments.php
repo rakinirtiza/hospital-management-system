@@ -41,7 +41,7 @@ include '../db_connect.php';
         </section>
     </main>
 
-    <footer> <?php include 'user_new_footer.php'; ?> </footer>
+    <footer> <?php include 'user_footer.php'; ?> </footer> </footer>
 </body>
 
 </html>

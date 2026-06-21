@@ -3,19 +3,24 @@ session_start();
 include '../db_connect.php';
 
 $loggedName = $loggedPhone = $loggedEmail = "";
+$selectedDoctor = $_GET['doctor_name'] ?? '';
+$selectedId = $_GET['doctor_id'] ?? '';
+
 if (isset($_SESSION['user_id'])) {
     $userId = $_SESSION['user_id'];
+
     $stmt = $conn->prepare("SELECT user_fname, user_lname, user_phone, user_email FROM users_info WHERE user_id=?");
     $stmt->bind_param("i", $userId);
     $stmt->execute();
+
     $result = $stmt->get_result();
+
     if ($row = $result->fetch_assoc()) {
         $loggedName = $row['user_fname'] . " " . $row['user_lname'];
         $loggedPhone = $row['user_phone'];
         $loggedEmail = $row['user_email'];
-        $selectedDoctor = isset($_GET['doctor_name']) ? $_GET['doctor_name'] : '';
-        $selectedId = isset($_GET['doctor_id']) ? $_GET['doctor_id'] : '';
     }
+
     $stmt->close();
 }
 ?>

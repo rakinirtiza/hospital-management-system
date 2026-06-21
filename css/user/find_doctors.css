@@ -1,6 +1,7 @@
-.main-section{
+.main-section {
     padding-bottom: 20px;
 }
+
 .doctors-section {
     text-align: center;
 }
@@ -19,18 +20,19 @@
     border-radius: 80px;
     width: 50%;
 }
+
 .doctors-list {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 18px;
 }
 
-.doctor-card{
+.doctor-card {
     border: 2px solid rgba(13, 59, 102, 1);
     border-radius: 5px;
 }
 
-.doctor-card img{
+.doctor-card img {
     width: 40%;
     height: 200px;
 }
@@ -41,10 +43,11 @@
     text-align: left;
 }
 
-.doctor-info h3{
+.doctor-info h3 {
     font-size: 22px;
     margin-bottom: 10px;
 }
+
 .doctor-info p {
     font-size: 16px;
     line-height: 1.6;
@@ -65,4 +68,34 @@
 
 .book-btn:hover {
     background-color: rgba(255, 144, 14, 1);
+}
+
+@media screen and (max-width:768px) {
+
+    .doctor-card {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+
+    .doctor-card img {
+        width: 180px;
+        height: auto;
+    }
+
+}
+
+@media screen and (max-width:768px) {
+
+    .search-section {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .search-section input,
+    .search-section select {
+        width: 100%;
+    }
+
 }
