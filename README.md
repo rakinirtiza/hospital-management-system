@@ -31,14 +31,14 @@ The system allows doctors and admins to handle patient records, schedule appoint
 
 # How to Install and Run the Project: 
 1. Install XAMPP and start Apache & MySQL.  
-2. Copy the project folder into: C:\xampp\htdocs\Hospital-Management-System\  
+2. Copy the project folder into: C:\xampp\htdocs\Hospital-Management-System-web-main\hospital-management-system-web-main\
 3. Create a database named hospital_db.  
 4. Import the SQL file (hospital_db.sql) into phpMyAdmin.  
-5. Open your browser and go to: http://localhost/Hospital-Management-System/index.php  
+5. Open your browser and go to: 
 
 # How to Use the Project
 1. Login to the System  
-   Open your browser and go to: http://localhost/Hospital-Management-System/index.php  
+   Open your browser and go to: http://localhost/hospital-management-system-web-main/hospital-management-system-web-main/index.php
 2. Go to login Page using navbar  
    Then login. Take userid and password form hospital_db  
    Only user can register. Admin and doctor cannot register.  
